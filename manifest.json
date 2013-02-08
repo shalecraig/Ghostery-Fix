@@ -1,0 +1,23 @@
+{
+  "name":"Ghostery Fixer",
+  "manifest_version": 2,
+  "version":"0.1",
+  "description":"Fixes a bunch of the websites that ghostery breaks",
+  "minimum_chrome_version":"16",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["fixer.js"]
+    }
+  ],
+  "permissions":[
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "images/context menu icon.png"
+    ,"19": "images/browser action icon.png"
+    ,"48": "images/small app icon.png"
+    ,"128":"images/big app icon.png"
+  }
+}

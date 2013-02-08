@@ -1,6 +1,6 @@
 A Response to [Ghostery breaking some websites](https://twitter.com/jeresig/status/299915982753894400)
 
-Feel free to submit pull requests to add more projects, and to let me know when this is no longer necessary.
+Feel free to submit pull requests to add more analytics packages, and let me know when this is no longer necessary.
 
 This is more of a "blanket" approach than in general.
 
